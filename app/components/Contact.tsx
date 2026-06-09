@@ -3,12 +3,12 @@
 // ── Replace these with your real details ──
 const WHATSAPP_NUMBER = "918073803181"; // e.g. 919876543210
 const EMAIL = "aftabnadeemnp@outlook.com";
-const LINKEDIN = "https://linkedin.com/in/aftabnadeem";
+const LINKEDIN = "https://www.linkedin.com/in/aftab-nadeem-b42772256";
 const GITHUB = "https://github.com/aftabnadeem";
 
 const links = [
   { label: "Email", value: EMAIL, href: `mailto:${EMAIL}` },
-  { label: "LinkedIn", value: "www.linkedin.com/in/aftab-nadeem-b42772256", href: LINKEDIN },
+  { label: "LinkedIn", value: "www.linkedin.com/in/aftab-nadeem", href: LINKEDIN },
   { label: "GitHub", value: "github.com/aftabnadeem", href: GITHUB },
   { label: "Location", value: "Bangalore, India · Remote OK", href: undefined },
 ];

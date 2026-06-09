@@ -10,7 +10,7 @@ const experience = [
     period: "Freelance",
     company: "Independent Projects",
     role: "Developer & Consultant",
-    desc: "// Paxal Stainless product site, corporate portals, AI research tooling, task management platforms. End-to-end ownership from architecture to deployment.",
+    desc: "// E Commerce product site, corporate portals, AI research tooling, task management platforms. End-to-end ownership from architecture to deployment.",
   },
 ];
 
