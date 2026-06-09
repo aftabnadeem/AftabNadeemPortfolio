@@ -1,23 +1,23 @@
 "use client";
 const projects = [
+  // {
+  //   num: "01",
+  //   name: "AI Research Intelligence Platform",
+  //   desc: "Multi-agent research platform that autonomously crawls, embeds, and synthesizes academic content using vector search and LLM reasoning chains. Zero-cost dev setup with local sentence-transformers.",
+  //   tags: [
+  //     { label: "CrewAI", type: "ai" },
+  //     { label: "LangChain", type: "ai" },
+  //     { label: "Gemini 2.5 Flash", type: "ai" },
+  //     { label: "pgvector", type: "default" },
+  //     { label: "FastAPI", type: "default" },
+  //     { label: "Next.js", type: "default" },
+  //     { label: "Docker", type: "default" },
+  //   ],
+  //   live: "#",
+  //   github: "#",
+  // },
   {
     num: "01",
-    name: "AI Research Intelligence Platform",
-    desc: "Multi-agent research platform that autonomously crawls, embeds, and synthesizes academic content using vector search and LLM reasoning chains. Zero-cost dev setup with local sentence-transformers.",
-    tags: [
-      { label: "CrewAI", type: "ai" },
-      { label: "LangChain", type: "ai" },
-      { label: "Gemini 2.5 Flash", type: "ai" },
-      { label: "pgvector", type: "default" },
-      { label: "FastAPI", type: "default" },
-      { label: "Next.js", type: "default" },
-      { label: "Docker", type: "default" },
-    ],
-    live: "#",
-    github: "#",
-  },
-  {
-    num: "02",
     name: "PitchOS — Mobile Sales CRM",
     desc: "Production mobile CRM for field sales teams. Offline-first architecture with real-time sync, pipeline tracking, automated deadline notifications and proof-of-work file uploads.",
     tags: [
@@ -27,11 +27,11 @@ const projects = [
       { label: "REST API", type: "default" },
       { label: "Push Notifications", type: "default" },
     ],
-    live: "#",
-    github: "#",
+    live: undefined,
+    github: "https://github.com/aftabnadeem/PitchOS",
   },
   {
-    num: "03",
+    num: "02",
     name: "IssueHub — Project Management",
     desc: "Jira alternative built for lean teams. Kanban boards, sprint planning, time tracking with Monday-only edit windows, and real-time updates via Supabase subscriptions.",
     tags: [
@@ -41,8 +41,22 @@ const projects = [
       { label: "Supabase", type: "default" },
       { label: "Real-time", type: "default" },
     ],
-    live: "#",
-    github: "#",
+    live: undefined,
+    github: "https://github.com/aftabnadeem/IssueHub",
+  },
+  {
+    num: "03",
+    name: "GudFudCo - E Commerce Site",
+    desc: "E-commerce site with email-based application flow, hero image carousel, toast notifications, and SEO-optimised single-page architecture.",
+    tags: [
+      { label: "React", type: "accent" },
+      { label: "Django", type: "default" },
+      { label: "Email Integration", type: "default" },
+      { label: "PostgreSQL", type: "default" },
+      
+    ],
+    live: "https://gudfudco.com",
+    github: undefined,
   },
   {
     num: "04",
@@ -54,7 +68,7 @@ const projects = [
       { label: "Email Integration", type: "default" },
       { label: "SEO", type: "default" },
     ],
-    live: "#",
+    live: "https://pegasusconsultingglobal.com",
     github: undefined,
   },
 ];
@@ -153,6 +167,7 @@ export default function Projects() {
                 {p.live && (
                   <a
                     href={p.live}
+                    target="_blank"
                     style={{
                       fontFamily: "var(--mono)",
                       fontSize: 10,
@@ -181,6 +196,7 @@ export default function Projects() {
                 {p.github && (
                   <a
                     href={p.github}
+                    target="_blank"
                     style={{
                       fontFamily: "var(--mono)",
                       fontSize: 10,
